@@ -38,4 +38,3 @@ steps:
     with:
       name: AAB
       path: app/build/outputs/bundle/release/
-```
