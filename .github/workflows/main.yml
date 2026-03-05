@@ -1,23 +1,24 @@
-name: Build Android
+name: Android Build
 
 on:
 push:
+branches: [ main ]
 
 jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
-  - uses: actions/checkout@v3
+  - name: Checkout
+    uses: actions/checkout@v3
 
   - name: Setup Java
     uses: actions/setup-java@v3
     with:
-      distribution: 'temurin'
+      distribution: temurin
       java-version: '17'
 
-  - name: Permission
+  - name: Grant permission
     run: chmod +x gradlew
 
   - name: Build APK
