@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_comments"
+    android:layout_marginTop="8dp"
+    android:padding="10dp">
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:id="@+id/ivProfile"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:src="@drawable/ic_image"
+         />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivProfile"
+        android:text="Maggie Phillips"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCommentCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivProfile"
+        android:layout_below="@id/tvName"
+        android:text="comment goes here........."
+        android:textColor="@color/Dark_Gray"
+        android:textSize="12sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="5h ago"
+        android:textColor="@color/Lite_Gray"
+        android:textSize="8sp"
+        android:layout_marginRight="5dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".activities.SignupActivity">
+
+    <TextView
+        android:id="@+id/tvisAlreadyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/EditText"
+        android:background="@drawable/bg_edit_text"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/PasswordEtContainer">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            style="@style/PasswordEt"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/PasswordEtContainer">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etConfirmPassword"
+            style="@style/PasswordEt"
+            android:hint="Confirm Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUp"
+        style="@style/Btn_layout"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/etAlreadyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Already have an Account?"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

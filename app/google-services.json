@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "653878376900",
+    "firebase_url": "https://fir-app-a1f92-default-rtdb.firebaseio.com",
+    "project_id": "fir-app-a1f92",
+    "storage_bucket": "fir-app-a1f92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653878376900:android:638c2723f22f2e3dd84c91",
+        "android_client_info": {
+          "package_name": "com.app.snapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653878376900-qrea6e4u7q8eps4s56ku598gsl4i46i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdILZjZmzR5nh3vR8D-R9y3ZME2nqFlDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653878376900-qrea6e4u7q8eps4s56ku598gsl4i46i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
